@@ -1,0 +1,27 @@
+{
+    "type": "OverdriveProjector",
+    "name": "Large Overdrive Projector",
+    "size": 3,
+    "health": 360,
+    "range": 1,
+    "speedBoost": 0.1,
+    "phaseRangeBoost": 249,
+    "speedBoostPhase": 2.4,
+    "category": "effect",
+    "requirements": [
+        {"item": "lead", "amount": 200},
+        {"item": "titanium", "amount": 130},
+        {"item": "silicon", "amount": 130},
+        {"item": "plastanium", "amount": 80},
+        {"item": "surge-alloy", "amount": 120}
+    ],
+    "consumes": {
+		"power": 6,
+		"items": {
+			"items": [ {"item": "phase-fabric", "amount": 1} ],
+			"booster": true,
+			"optional": false
+		}
+	},
+    "research": "overdrive-projector"
+}

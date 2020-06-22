@@ -1,0 +1,14 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "Plastanium Conveyor",
+	"description": "Moves items in batches (sorry cant). Accepts items from back.",
+	"health": 75,
+	"requirements": [
+		{"item": "graphite", "amount": 1},
+		{"item": "silicon", "amount": 1},
+		{"item": "plastanium", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.25,
+	"research": "armored-conveyor"
+}

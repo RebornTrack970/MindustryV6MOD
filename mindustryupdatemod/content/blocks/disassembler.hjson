@@ -1,0 +1,38 @@
+type: Separator
+name: disassembler
+description: .
+itemCapacity: 20
+liquidCapacity: 10
+health: 360
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 12
+spinnerSpeed: 16
+updateEffect: pulverizeRedder
+consumes: {
+  power: 240
+  liquid: {
+    liquid: slag
+    amount: 1.8
+  }
+}
+requirements: [
+  graphite/140
+  titanium/100
+  silicon/150
+  surge-alloy/70
+]
+category: crafting
+research: separator
+activeSound: respawning
+activeSoundVolume: 0.95
+idleSound: respawning
+idleSoundVolume: 0.5
+results: [
+    graphite/275
+    sand/250
+    titanium/200
+    	thorium/100
+]

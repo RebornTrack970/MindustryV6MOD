@@ -1,0 +1,6 @@
+name: "mindustry-update"
+displayName: "[cyan]Mindustry V6 Mod" //what displays in the mod selection menu
+author: "RTOmega"
+description: "Adds the addable v6 features."
+version: "1.0"
+minGameVersion: "104"
